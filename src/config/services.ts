@@ -1,5 +1,5 @@
-import { ObjectManager } from '@100k/intiv/ObjectManager';
-import OrmFactory from 'core/ORM/Factory';
+import { ObjectManager } from 'intiv/utils/ObjectManager';
+import OrmFactory from 'intiv/core/ORM/Factory';
 
 
 export default {

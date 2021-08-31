@@ -1,6 +1,6 @@
-import { ObjectManager } from '@100k/intiv/ObjectManager';
-import ExpressFactory from 'core/Express/Factory';
-import AbstractApp from 'core/Module/AbstractApp';
+import { ObjectManager } from 'intiv/utils/ObjectManager';
+import ExpressFactory from 'intiv/core/Express/Factory';
+import AbstractApp from 'intiv/core/Module/AbstractApp';
 
 
 export default class App

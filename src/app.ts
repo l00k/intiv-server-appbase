@@ -1,4 +1,4 @@
-import { ObjectManager } from '@100k/intiv/ObjectManager';
+import { ObjectManager } from 'intiv/utils/ObjectManager';
 import App from '#/AppMain/App';
 import dotenv from 'dotenv';
 
