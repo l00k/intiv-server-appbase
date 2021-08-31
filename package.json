@@ -1,5 +1,5 @@
 {
-    "name": "watchdog-server",
+    "name": "@l00k/intiv-server-appbase",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -9,8 +9,8 @@
     },
     "main": "src/main.ts",
     "workspaces": [
-        "src/modules/AppMain",
-        "src/modules/WebsiteChangeMonitor"
+        "src/modules/AppMain"
+        "src/modules/AppMain"
     ],
     "dependencies": {
         "@app-server-base/core": "^0.0.1",

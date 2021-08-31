@@ -2,13 +2,11 @@ version: '3.6'
 
 networks:
     default:
-        name: web-eth-whale-monitor-net
         driver: bridge
 
 services:
     db:
         image: mysql:5.7
-        container_name: web-eth-whale-monitor-db
         user: "1000:1000"
         restart: "no"
         env_file: .env
@@ -17,7 +15,6 @@ services:
             - MYSQL_DATABASE=$DB_NAME
             - MYSQL_USER=$DB_USER
             - MYSQL_PASSWORD=$DB_PASSWORD
-            - TZ=Europe/Warsaw
         networks:
             - default
         ports:
@@ -29,8 +26,6 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: web-eth-whale-monitor-node
-        container_name: web-eth-whale-monitor-node
         user: "1000:1000"
         restart: "no"
         env_file: .env
