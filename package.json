@@ -9,13 +9,13 @@
     },
     "main": "src/main.ts",
     "workspaces": [
-        "src/intiv/utils",
-        "src/intiv/core",
-        "src/modules/AppMain"
+        "src/intiv/*",
+        "src/modules/*"
     ],
     "dependencies": {
         "@l00k/intiv-server-core": "^0.0.1",
         "@app/main": "^0.0.1",
+        "@app/sample": "^0.0.1",
         "ts-node": "^9.1.1",
         "tsc-watch": "^4.2.9",
         "typescript": "^4.2.4"
