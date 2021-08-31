@@ -1,0 +1,6 @@
+[submodule "src/intiv/core"]
+	path = src/intiv/core
+	url = git@github.com:l00k/intiv-server-core.git
+[submodule "src/intiv/utils"]
+	path = src/intiv/utils
+	url = git@github.com:l00k/intiv-utils.git
