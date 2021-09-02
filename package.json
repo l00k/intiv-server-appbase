@@ -13,10 +13,10 @@
         "src/modules/*"
     ],
     "dependencies": {
-        "@l00k/intiv-utils": "^0.0.1",
-        "@l00k/intiv-server-core": "^0.0.1",
-        "@app/main": "^0.0.1",
-        "@app/sample": "^0.0.1",
+        "@l00k/intiv-utils": "*",
+        "@l00k/intiv-server-core": "*",
+        "@app/main": "*",
+        "@app/sample": "*",
         "ts-node": "^9.1.1",
         "tsc-watch": "^4.2.9",
         "typescript": "^4.2.4"
